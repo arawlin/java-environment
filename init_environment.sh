@@ -8,7 +8,7 @@ ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 apt autoremove openjdk*
 add-apt-repository ppa:webupd8team/java
 apt update
-apt install oracle-java8-installer
+apt install openjdk-8-jdk
 
 # maven
 apt install maven
