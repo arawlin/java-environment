@@ -4,6 +4,10 @@
 tzselect
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
+# python
+apt install python
+apt install python-pip
+
 # jdk
 apt autoremove openjdk*
 add-apt-repository ppa:webupd8team/java
